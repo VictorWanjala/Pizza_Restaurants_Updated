@@ -1,0 +1,87 @@
+
+.restaurant-list, .restaurant-pizza {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.restaurant-list table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.restaurant-list th, .restaurant-list td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.restaurant-list th {
+  background-color: #ED6D30;
+  color: white;
+}
+
+.restaurant-list button {
+  background-color: #F6B339;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+
+
+.restaurant-pizza h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.restaurant-pizza table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.restaurant-pizza th, .restaurant-pizza td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.restaurant-pizza th {
+  background-color: #ED6D30;
+  color: white;
+}
+
+.restaurant-pizza button {
+  background-color: #F6B339;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  cursor: pointer;
+}
+
+.restaurant-pizza button:hover {
+  background-color: #FF0000; 
+}
+
+.restaurant-pizza label {
+  display: block;
+  margin-top: 10px;
+}
+
+
+.delete {
+  background-color: #FF6347; 
+}
+
+.delete:hover {
+  background-color: #FF0000; 
+}
+
+
+.available:hover {
+  background-color: #45A049; 
+}
